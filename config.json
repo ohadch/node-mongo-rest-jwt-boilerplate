@@ -1,0 +1,4 @@
+{
+  "connectionString": "{MONGO_DB_CONN_STRING}",
+  "secret": "{APP_SECRET}"
+}

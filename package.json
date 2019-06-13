@@ -1,0 +1,30 @@
+{
+  "name": "staplo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon ./app.js localhost 8000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://ohadch@bitbucket.org/ohadch/staplo-server.git"
+  },
+  "author": "Ohad Chaet",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/ohadch/staplo-server#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "latest",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-jwt": "^5.3.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.5.15",
+    "rootpath": "^0.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
